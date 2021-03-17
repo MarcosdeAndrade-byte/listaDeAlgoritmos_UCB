@@ -1,0 +1,26 @@
+algoritmo inteiroHoras;
+// Síntese
+//  Objetivo:  Construa um algoritmo que leia um número inteiro de horas e mostre ao usuário o 
+//  correspondente em minutos e segundos destas horas.
+
+//  Entrada :Número inteiro
+//  Saída   :Correspondente em minutos e segundos
+
+
+principal
+//  Declaração de variáveis
+    inteiro numeroInteiro,minuto,segundos;
+
+//  Entrada de dados
+    escreva("Digite um número inteiro:");
+    leia(numeroInteiro);
+
+//  Processamento de dados 
+    minuto = numeroInteiro * 60;
+    segundos = minuto * 60;
+
+//  Saida de dados 
+    escreval("Minutos: ",minuto);
+    escreva("Segundos: ",segundos);
+
+fimPrincipal

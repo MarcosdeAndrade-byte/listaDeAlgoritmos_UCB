@@ -1,0 +1,21 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:Construa um algoritmo que calcule a área de um círculo cujo raio é fornecido pelo 
+//usuário (use área= 3.14 x raio2)
+//  Entrada:Raio
+//  Saída:Área
+
+
+principal
+//  Declaração de variáveis
+	real raio,area;
+//  Entrada de dados 
+    escreval("Digite o raio do círculo");
+    leia(raio);
+    
+//  Processamento
+	area = 3.14*(raio*(raio));
+
+	escreva("Área do círculo: ",area);
+
+fimPrincipal

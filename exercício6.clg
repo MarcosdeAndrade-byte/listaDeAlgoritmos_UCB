@@ -1,0 +1,28 @@
+algoritmo semNome;
+// Síntese
+
+//Objetivo:Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a 
+//média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma 
+//dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0.
+
+//  Entrada : Valores A e B 
+//  Saída   : Média Ponderada
+
+
+principal
+    inteiro nota1,nota2;
+    real media;
+
+//  Entrada de dados
+    escreva("Primeira nota: ");
+    leia(nota1);
+
+    escreva("Segunda nota");
+    leia(nota2);
+    
+//  Processamento de dados
+    media = (nota1*(3.5) + nota2*(7.5))/11;
+
+//  Saida de dados
+    escreva("Média das notas: ",media);
+fimPrincipal

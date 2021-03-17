@@ -1,0 +1,28 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:Construa um algoritmo que calcule a média aritmética de 3 números quaisquer 
+//fornecidos pelo usuário.
+//  Entrada :Três números do usuário 
+//  Saída   :Média dos números
+
+
+principal
+//  Declaração de variáveis
+	inteiro primeiroN,segundoN,terceiroN;
+	real media;
+	
+//  Entrada de dados
+    escreva("Digite o primeiro número: ");
+    leia(primeiroN);
+    escreva("Digite o segundo número: ");
+    leia(segundoN);
+    escreva("Digite o terceiro número: ");
+    leia(terceiroN);
+
+//  Processamento de dados
+    media = (primeiroN + segundoN + terceiroN)/ 3;
+
+//  Saida de dados
+    escreva("A média entre os três números digitados é:",media:2:2);
+	
+fimPrincipal

@@ -1,0 +1,31 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:Fazer um algoritmo para auxiliar um construtor a descobrir a quantidade de rolos e a 
+//quantidade de metros avulsos de fios que ele precisa adquirir. Sabe-se que o 
+//construtor tem a quantidade total de fios em metros a serem utilizados na instalação 
+//elétrica da obra e que cada rolo de fio tem 50 metros.
+
+//  Entrada :Quantidade de fio
+//  Saída   :Rolos  e quantidade avulsa.
+
+
+principal
+//  Declaração de variáveis
+    inteiro rolosDeFio,fioAvulso,metrosDeFio;
+
+    
+//  Entrada de dados
+	escreval("Quantos metros de fio você tem?");
+	leia(metrosDeFio);
+
+
+//  Processamento de dados
+    rolosDeFio = metrosDeFio / 50;
+    fioAvulso = metrosDeFio % 50;
+    
+
+//  Saida de dados
+	escreva("Rolos de fio: ",rolosDeFio);
+	escreval("");
+    escreva("Metros de fio avulso: ",fioAvulso);
+fimPrincipal
