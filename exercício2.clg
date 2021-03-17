@@ -15,7 +15,7 @@ principal
     
 //  Processamento
 	area = 3.14*(raio*(raio));
-
-	escreva("Área do círculo: ",area);
+//  Saida de dados
+   escreva("Área do círculo: ",area);
 
 fimPrincipal
